@@ -693,11 +693,11 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  *
  * For example:
  * @code
- * $settings['trusted_host_patterns'] = array(
+  $settings['trusted_host_patterns'] = array(
  *   '^example\.com$',
  *   '^.+\.example\.com$',
  *   '^example\.org$',
- *   '^.+\.example\.org$',
+ *  '^.+\.example\.org$',
  * );
  * @endcode
  * will allow the site to run off of all variants of example.com and
@@ -720,7 +720,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 $databases['default']['default'] = array (
   'database' => 'drupal',
   'username' => 'root',
-  'password' => 'uha',
+  'password' => 'P3gaze',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
